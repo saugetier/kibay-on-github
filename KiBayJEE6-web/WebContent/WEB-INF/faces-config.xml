@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<faces-config version="2.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xi="http://www.w3.org/2001/XInclude" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd">
+	<managed-bean>
+		<managed-bean-name>userHandler</managed-bean-name>
+		<managed-bean-class>de.kibay.web.handler.UserHandler</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+		<managed-property>
+			<property-name>currentUser</property-name>
+			<property-class>de.kibay.ejb.entities.User</property-class>
+			<value></value>
+		</managed-property>
+	</managed-bean>
+
+	<!-- https://jira.jboss.org/browse/JBIDE-6295 -->
+	<name>dummy</name>
+	
+	<application>
+		<resource-bundle>
+			<base-name>de.jsfpraxis.ResourceBundle</base-name>
+			<var>resourceBundle</var>
+		</resource-bundle>
+	</application>
+	
+</faces-config>

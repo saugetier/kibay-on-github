@@ -1,0 +1,312 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+* {
+	border: 0;
+	margin: 0;
+}
+
+img {
+	border: 0px;
+}
+
+body {
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(images/bg.jpg);
+}
+
+.antiqua {
+	
+}
+
+#login {
+	width: 300px;
+	float: right;
+	margin-right: -130px;
+	margin-top: 20px;
+}
+
+#bg_bottom {
+	background: url(images/bg_bottom.jpg) center bottom no-repeat;
+}
+
+#bg_top {
+	background: url(images/bg_top.jpg) center top no-repeat;
+	height: 225px;
+}
+
+#main {
+	width: 990px;
+	margin: 0 auto;
+}
+
+/*logo*/
+#logo {
+	margin-left: -120px;
+	padding: 20px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/*menu*/
+#buttons {
+	text-align: center;
+	margin-left: 185px;
+	margin-top: -90px;
+	margin-bottom: 110px;
+	padding: 25px 0px 0px 20px;
+	background: url(images/but_bg.png) left top no-repeat;
+}
+
+.my_but1 {
+	background: url(images/but1.png) top center no-repeat;
+	width: 160px;
+	height: 94px;
+	display: block;
+	padding-top: 90px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #0066A1;
+	text-decoration: none;
+}
+
+.my_but2 {
+	background: url(images/but2.png) top center no-repeat;
+	width: 160px;
+	height: 94px;
+	display: block;
+	padding-top: 90px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #0066A1;
+	text-decoration: none;
+}
+
+.my_but3 {
+	background: url(images/but3.png) top center no-repeat;
+	width: 160px;
+	height: 94px;
+	display: block;
+	padding-top: 90px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #0066A1;
+	text-decoration: none;
+}
+
+.my_but4 {
+	background: url(images/but4.png) top center no-repeat;
+	width: 160px;
+	height: 94px;
+	display: block;
+	padding-top: 90px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #0066A1;
+	text-decoration: none;
+}
+
+.my_but5 {
+	background: url(images/but5.png) top center no-repeat;
+	width: 160px;
+	height: 94px;
+	display: block;
+	padding-top: 90px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #0066A1;
+	text-decoration: none;
+}
+
+.but_size {
+	width: 160px;
+	height: 64px;
+}
+
+.but1 {
+	display: block;
+	float: left;
+	width: 160px;
+	height: 150px;
+	background: url(images/but.png) left top no-repeat;
+	text-align: center;
+	font-weight: normal;
+}
+
+.but1:hover {
+	color: #0066A1;
+	text-decoration: underline;
+	background: url(images/but_hover.png) 0 0 no-repeat;
+	font-style: italic;
+}
+
+/* Abstandhalter für Buttons */
+.but_razd {
+	width: 17px;
+	height: 10px;
+	float: left;
+}
+
+/*content*/
+#content {
+	min-height: 100%;
+	margin-top: 80px;
+}
+
+#content_bg {
+	background: url(images/content_bg.gif) left repeat-y;
+	color: #666666;
+}
+
+#content_bg_bott {
+	background: url(images/content_bg_bott.gif) left bottom no-repeat;
+}
+
+#left {
+	float: left;
+	width: 250px;
+	margin-left: 30px;
+	padding: 0 0 20px 0;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #227AAE;
+	padding: 10px 20px 10px 0;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #2E2E2E;
+	padding: 10px 20px 10px 0;
+}
+
+.span_lh {
+	line-height: 17px;
+}
+
+.span_data {
+	text-decoration: underline;
+	line-height: 25px;
+}
+
+.read_more {
+	text-align: right;
+	padding: 2px 4px 0px 0px;
+}
+
+.read_more a {
+	font-size: 12px;
+	color: #005D93 !important;
+	text-decoration: none !important;
+	font-weight: bold;
+}
+
+.read_more a:hover {
+	font-size: 12px;
+	color: #005D93;
+	text-decoration: underline !important;
+}
+
+#right {
+	float: right;
+	width: 622px;
+	margin-right: 17px;
+	padding: 0 0 20px 0;
+}
+
+.phot {
+	float: left;
+	padding: 5px 30px 0 0;
+}
+
+.row_bott {
+	padding: 10px 20px 20px 30px;
+	background: #D9D7D7;
+	border-bottom: 6px solid #BBBBBB;
+	color: #666666
+}
+
+.submit-button {
+	border-bottom: 1px;
+}
+
+/*footer*/
+#footer {
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+	padding: 46px 0px 0px 30px;
+	height: 80px;
+	text-align: center;
+}
+
+#footer a {
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #fff;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+table.auction {
+	border: 1px solid #CCCCCC;
+}
+
+table.auction th {
+	background: #EFEFEF none repeat scroll 0 0;
+	border-top: 1px solid #CCCCCC;
+	font-size: small;
+	padding-left: 5px;
+	padding-right: 4px;
+	padding-top: 4px;
+	vertical-align: top;
+}
+
+table td:first-child {
+	font-weight: bold;
+}
+
+table .first {
+	width: 120px;
+}
+
+table .second {
+	width: 120px;
+}
+
+table .third {
+	width: 120px;
+}
+
+table .fourth {
+	width: 120px;
+}
+
+table .fifth {
+	width: 120px;
+}
+
+table .rest {
+	width: 300px;
+}
+
+table.auction {
+	border-top: 1px solid #CCCCCC;
+	font-size: small;
+	padding-left: 5px;
+	padding-right: 4px;
+	padding-top: 4px;
+	vertical-align: top;
+	text-align: center
+}

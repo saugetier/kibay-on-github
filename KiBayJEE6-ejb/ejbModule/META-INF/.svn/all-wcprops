@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Micha/!svn/ver/43/trunk/KiBayJEE6-ejb/ejbModule/META-INF
+END
+sun-ejb-jar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Micha/!svn/ver/43/trunk/KiBayJEE6-ejb/ejbModule/META-INF/sun-ejb-jar.xml
+END
+ejb-jar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Micha/!svn/ver/43/trunk/KiBayJEE6-ejb/ejbModule/META-INF/ejb-jar.xml
+END
+MANIFEST.MF
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Micha/!svn/ver/43/trunk/KiBayJEE6-ejb/ejbModule/META-INF/MANIFEST.MF
+END
+persistence.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Micha/!svn/ver/43/trunk/KiBayJEE6-ejb/ejbModule/META-INF/persistence.xml
+END
